@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: Development
+    environment: dev-deployment
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
